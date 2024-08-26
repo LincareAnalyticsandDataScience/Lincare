@@ -11,9 +11,9 @@
 #' @importFrom odbc odbc
 #'
 #' @param DSN The Data Source Name (EDW_IBMi, EDW_External, ETL, RStudio)
-#' @param Linked.Server.Name Default: NULL. Otherwise, the name of the Linked Server
 #' @param Query The Query Text or the Name of the Query File
 #' @param File Default: TRUE. Determines if a Query is being passed through the function as a File or as Text
+#' @param Linked.Server.Name Default: NULL. Otherwise, the name of the Linked Server
 #' @param N Default: 5. This is the number of attempts the function will make to connect to the Server/Database
 #' @param Sleep Default: 2. Milliseconds between each attempt
 #'
@@ -21,12 +21,12 @@
 #'
 #' @examples Query <- "Select * from table"
 #' Data <- Run_Query(DSN = "DSN",
-#'                   Linked.Server.Name = "name",
 #'                   Query = Query,
-#'                   File = TRUE)
+#'                   File = TRUE,
+#'                   Linked.Server.Name = "name",)
 #'
 #' @export
-Run_Query <- function(DSN, Linked.Server.Name = NULL, Query, File = TRUE, N = 5, Sleep = 2){
+Run_Query <- function(DSN, Query, File = TRUE, Linked.Server.Name = NULL, N = 5, Sleep = 2){
   if(File){
     Query <- readChar(con = Query, nchars = file.info(Query)$size[1])
     Query <- gsub(pattern = "\r", replacement = " ", x = Query)

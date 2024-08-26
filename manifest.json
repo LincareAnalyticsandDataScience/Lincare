@@ -1128,13 +1128,13 @@
       "checksum": "3f0d4853daad3ae95430a5e7bd0a92f6"
     },
     "man/Run_Query.Rd": {
-      "checksum": "07ff4475f7a9733145a1c968427881a8"
+      "checksum": "9be56fee2b93a7a4c0287f40717f7d5a"
     },
     "NAMESPACE": {
       "checksum": "8b54e5a89fbda3af5e077053d40bec76"
     },
     "R/Run_Query.R": {
-      "checksum": "fe8a4ef496e03576a83d0b5afe06e3e0"
+      "checksum": "18a83302628f7542fc68418bed674b0d"
     }
   },
   "users": null
