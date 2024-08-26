@@ -1207,7 +1207,7 @@
       "checksum": "ecb1f6047d538124f06862b8e7dbfca5"
     },
     ".RData": {
-      "checksum": "751001ad893179d8c88a6d850edee7ed"
+      "checksum": "fdf21ef621099ae94b652a13d54c40d1"
     },
     "app.R": {
       "checksum": "d41d8cd98f00b204e9800998ecf8427e"
@@ -1217,6 +1217,9 @@
     },
     "man/Build_Excel_Worksheet.Rd": {
       "checksum": "48d91196edc453f0f3bc6d1fa9effc50"
+    },
+    "man/Get_New_SiteID.Rd": {
+      "checksum": "90a9da13baf6ce227b853a14e7a13660"
     },
     "man/Number_Format.Rd": {
       "checksum": "98e120fdc3613b239c081435dd1eaefc"
@@ -1229,6 +1232,9 @@
     },
     "R/Build_Excel_Worksheet.R": {
       "checksum": "6c914b2f6f5798986bff25a00ca0c77d"
+    },
+    "R/Get_New_SiteID.R": {
+      "checksum": "132614a531d081da636f1b30ca476c9d"
     },
     "R/Number_Format.R": {
       "checksum": "40ddb64721ed1fa3708622254476bc87"
